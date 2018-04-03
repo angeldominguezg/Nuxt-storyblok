@@ -1,7 +1,9 @@
 <template>
   <div>
     <TheHeader />
-    <nuxt/>
+    <main class="main-content">
+      <nuxt/>
+    </main>
   </div>
 </template>
 <script>
@@ -20,6 +22,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 .main-content {
-  margin-top: 4.5rem;
+  margin-top: 5.5rem;
 }
 </style>
