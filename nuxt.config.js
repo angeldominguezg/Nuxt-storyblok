@@ -46,7 +46,7 @@ module.exports = {
     // Doc: https://www.npmjs.com/package/storyblok-nuxt
     [
       'storyblok-nuxt',
-      { accessToken: 'rZFHtfwrwiF6t0rAkWjelwtt', cacheProvider: 'memory' }
+      { accessToken: process.env.NODE_ENV == 'production' ? 'qdiXo99gneFrSIK1HbGB1Att' : 'rZFHtfwrwiF6t0rAkWjelwtt', cacheProvider: 'memory' }
     ]
   ],
 

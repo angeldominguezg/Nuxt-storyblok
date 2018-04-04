@@ -14,6 +14,7 @@
     }
   }
 </script>
+
 <style>
 * {
   box-sizing: border-box;
@@ -23,6 +24,6 @@ body {
   margin: 0;
 }
 .main-content {
-  margin-top: 5.5rem;
+  margin-top: 4.5rem;
 }
 </style>
