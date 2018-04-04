@@ -15,7 +15,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:400,700' }
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Lato:400,700'
+      }
     ]
   },
 
@@ -27,21 +30,24 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: [],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    // '@nuxtjs/axios'
+    // Doc: https://www.npmjs.com/package/storyblok-nuxt
+    [
+      'storyblok-nuxt',
+      { accessToken: 'rZFHtfwrwiF6t0rAkWjelwtt', cacheProvider: 'memory' }
+    ]
   ],
 
   /*
